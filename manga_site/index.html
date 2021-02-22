@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../assets/styles/menu.css" />
+    <link rel="stylesheet" href="../assets/styles/style.css" />
+    <link rel="stylesheet" href="../assets/styles/cart.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title></title>
+  </head>
+  <body>
+    <div class="Search"></div>
+    <nav id="menu">
+      <ul>
+        <li>Home</li>
+        <li>Manga</li>
+        <li>Contact</li>
+        <input type="text" placeholder="Search by title, author or genre" />
+        <button type="button" name="button">
+          <i class="fa fa-search"></i>
+        </button>
+        <li onclick="menuOpen()">X</li>
+      </ul>
+      <button type="button" name="button" class="menuBtn" onclick="menuOpen()">
+        <i class="fa fa-bars"></i>Menu
+      </button>
+    </nav>
+    <div class="cart">
+      <i class="fa fa-shopping-cart" id="cart"></i
+      ><label for="cart" id="amount">0</label>
+    </div>
+    <button type="button" name="button" onclick="add()">add to cart</button>
+    <script src="assets/script/menu.js" charset="utf-8"></script>
+    <script src="assets/script/cart.js" charset="utf-8"></script>
+  </body>
+</html>

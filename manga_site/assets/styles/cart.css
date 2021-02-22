@@ -1,0 +1,15 @@
+.cart {
+  position: absolute;
+  top: 0%;
+  right: 1%;
+  font-size: 30px;
+  color: blue;
+}
+
+#amount {
+  top: 0%;
+  font-size: 15px;
+  background-color: darkred;
+  color: white;
+  border-radius: 50px;
+}
